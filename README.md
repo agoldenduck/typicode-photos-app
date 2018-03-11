@@ -43,7 +43,7 @@ npm run lint
 
 The goal was to make a responsive app that handled a 5000 resource REST call with no pagination appear lightning fast.
 
-I used create react app and the blueprintjs ui library to get up and running and looking good with minimal configuration. I really enjoy the simple skeleton api of blueprintjs to suggest what data will be displayed on the page once it has been gathered.
+I used create react app and the blueprintjs UI library to get up and running and looking good with minimal configuration. I really enjoy the simple skeleton api of blueprintjs to suggest what data will be displayed on the page once it has been gathered.
 
 I included lazysizes so that I could load the thumbnails in the list. Lazysizes keeps all 5000 from attempting to load at once. Instead only the visible elements load their images and the others are loaded as you scroll. Without lazy loading the images, the entire app comes crashing to a halt while it loads all 5000 thumbnails.
 
